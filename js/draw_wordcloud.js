@@ -1,7 +1,7 @@
 list = [];
 var label = 
-    [{ "word": "24小时不准笑", "freq": 3 },
-     { "word": "akb48", "freq": 7 }, 
+    [{ "word": "酸", "freq": 3 },
+     { "word": "你们都是疯子吗", "freq": 7 }, 
      { "word": "ametalk", "freq": 35 }, 
      { "word": "becky", "freq": 2 },
      { "word": "cp爱", "freq": 2 }, 
