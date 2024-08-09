@@ -4,10 +4,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>mxtay</title>
+    <title>二哥别看 是恶评</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <link rel="shortcut icon" href="./favicon.ico" />
+    <script src="./js/wordcloud2.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/index.css" media="all" />
 </head>
 
@@ -43,7 +43,7 @@
                                     <a href="index.html">首页</a>
                                 </li>
                                 <li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173">
-                                    <a href="cloudLabelnone.html">词</a>
+                                    <a href="update.html">更新</a>
                                 </li>
                             </ul>
                         </div>
@@ -86,10 +86,13 @@
             </div>
         </div>
     </header>
-   <div id="main" class="content">
-    <!-- 主体内容 -->
-    <p>xxx</p>
-   </div>
+    <div id="main" class="content">
+        <!-- 主体内容 -->
+        <!-- 标签框canvas -->
+        <div id="canvas-container" align="center">
+            <canvas id="canvas_cloud" width="400px" height="600px"></canvas>
+        </div>
+    </div>
     <footer id="footer" class="overlay animated from-top">
         <div class="decor-wrapper">
             <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -115,7 +118,7 @@
                 <a title="QQ" class="socialicon" href="" target="_blank"><i class="iconfont" aria-hidden="true">&#xe616;</i></a>
             </li>
         </div>
-        
+        <script type='text/javascript' src="./js/draw_wordcloud.js"></script>
         <script type='text/javascript' src='./js/jquery.min.js'></script>
         <script type='text/javascript' src='./js/plugins.js'></script>
         <script type='text/javascript' src='./js/script.js'></script>
