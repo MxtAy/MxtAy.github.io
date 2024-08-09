@@ -2,16 +2,19 @@ list = [];
 var label = 
     [{ "word": "酸", "freq": 3 },
      { "word": "你们都是疯子吗", "freq": 7 }, 
-     { "word": "ametalk", "freq": 35 }, 
-     { "word": "becky", "freq": 2 },
-     { "word": "cp爱", "freq": 2 }, 
-     { "word": "daigo", "freq": 2 }, 
-     { "word": "downtown", "freq": 5 }, 
-     { "word": "honeyworks", "freq": 2 },
-     { "word": "ippon", "freq": 2 },
-     { "word": "peace", "freq": 3 }, 
-     { "word": "rozan", "freq": 2 }, 
-     { "word": "taka&toshi", "freq": 2 }, { "word": "unjash", "freq": 9 }, { "word": "unjash组合", "freq": 2 }];
+     { "word": "我前男友", "freq": 35 }, 
+     { "word": "卫校", "freq": 2 },
+     { "word": "操行", "freq": 2 }, 
+     { "word": "我也是人", "freq": 2 }, 
+     { "word": "aka", "freq": 5 }, 
+     { "word": "骆驼", "freq": 2 },
+     { "word": "去厕所", "freq": 2 },
+     { "word": "儿子睡觉呢", "freq": 3 }, 
+     { "word": "他挺猛", "freq": 2 }, 
+     { "word": "我就这么操行", "freq": 2 },
+     { "word": "是有点大", "freq": 9 },
+     { "word": "但是想尝试下", "freq": 2 }
+    ];
 
 for (var i in label) {
     if (label[i]["freq"] > 0) {
