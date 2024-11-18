@@ -207,7 +207,8 @@ if (!window.clearImmediate) {
       shuffle: true,
       rotateRatio: 0.1,
 
-      shape: 'circle',
+      shape: 'diamond',
+	  top:0,
       ellipticity: 0.65,
 
       classes: null,
