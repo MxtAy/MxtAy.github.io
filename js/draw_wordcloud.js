@@ -142,3 +142,4 @@ var options = {
 }
 
 WordCloud(document.getElementById('canvas_cloud'), options);
+WordCloud(document.getElementById('canvas_cloud1'), options);
